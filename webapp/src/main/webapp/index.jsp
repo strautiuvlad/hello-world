@@ -1,11 +1,11 @@
 <html>
 <head><title>Web App</title></head>
-<body>
+<body background="https://wallpaperaccess.com/full/2255418.jpg">
   <%
-    int num = Math.random();
-    if (num > 10) {
+    double num = Math.random();
+    if (num > 0.5) {
   %>
-      <h2>Your number is lower than 10!</h2><p>(<%= num %>)</p>
+      <h2>Your number is lower than 0.5!</h2><p>(<%= num %>)</p>
   <%
     } else {
   %>
