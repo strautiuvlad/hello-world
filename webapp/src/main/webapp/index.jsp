@@ -1,6 +1,6 @@
 <html>
 <head><title>Web App</title></head>
-<body background="https://wallpaperaccess.com/full/2255418.jpg">
+<body>
   <%
     int num = Math.random();
     if (num > 10) {
